@@ -1,11 +1,12 @@
 {
   "name": "@naturel/lucy",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a test module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm publish --access=public --force"
+    "pub": "npm publish --access=public --force",
+    "unpub": "npm unpublish --force"
   },
   "repository": {
     "type": "git",

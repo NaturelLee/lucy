@@ -1,3 +1,5 @@
 const a = () => console.info('a');
 
-export const a;
+module.exports = {
+  a,
+};
