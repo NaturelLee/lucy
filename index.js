@@ -1,3 +1,3 @@
 const a = () => console.info('a');
 
-export { a };
+export const a;
