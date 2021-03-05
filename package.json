@@ -1,6 +1,6 @@
 {
   "name": "@naturel/lucy",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a test module",
   "main": "index.js",
   "scripts": {
