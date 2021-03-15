@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pub": "npm publish --access=public --force --registry=https://registry.npmjs.org/",
-    "unpub": "npm unpublish --force --registry=https://registry.npmjs.org/"
+    "unpub": "npm unpublish --force --registry=https://registry.npmjs.org/",
+    "commitmsg": "validate-commit-msg",
+    "precommit": "echo this is precommit lint-staged"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/NaturelLee/lucy/issues"
   },
-  "homepage": "https://github.com/NaturelLee/lucy#readme"
+  "homepage": "https://github.com/NaturelLee/lucy#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "husky": "0.14.3",
+    "validate-commit-msg": "2.14.0"
+  }
 }
