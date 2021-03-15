@@ -1,11 +1,11 @@
 {
   "name": "@naturel/lucy",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "a test module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "npm publish --access=public --force --registry=https://registry.npmjs.org/",
+    "pub": "npm publish --access=public --scope=@naturel --force --registry=https://registry.npmjs.org/",
     "unpub": "npm unpublish --force --registry=https://registry.npmjs.org/",
     "commitmsg": "validate-commit-msg",
     "precommit": "echo this is precommit lint-staged"
@@ -25,5 +25,9 @@
   "dependencies": {
     "husky": "0.14.3",
     "validate-commit-msg": "2.14.0"
-  }
+  },
+  "files": [
+    ".gitignore",
+    "index.js"
+  ]
 }
