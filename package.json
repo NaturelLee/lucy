@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "npm publish --access=public --force",
-    "unpub": "npm unpublish --force"
+    "pub": "npm publish --access=public --force --registry=https://registry.npmjs.org/",
+    "unpub": "npm unpublish --force --registry=https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",

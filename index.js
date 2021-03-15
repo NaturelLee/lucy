@@ -1,4 +1,4 @@
-const a = () => console.info('a');
+const a = () => console.info(' this is module a');
 
 module.exports = {
   a,
